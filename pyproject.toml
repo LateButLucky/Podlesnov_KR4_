@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "podlesnov-kr4-"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr Podlesnov <sawawawre@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pytest = "^8.0.1"
+pytest-cov = "^4.1.0"
+attrs = "^23.2.0"
+colorama = "^0.4.6"
+coverage = "^7.4.1"
+iniconfig = "^2.0.0"
+packaging = "^23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
